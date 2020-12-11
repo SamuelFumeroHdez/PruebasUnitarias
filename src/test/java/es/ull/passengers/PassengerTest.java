@@ -1,6 +1,7 @@
 package es.ull.passengers;
 
 
+import es.ull.flights.Flight;
 import es.ull.passengers.Passenger;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
@@ -11,7 +12,7 @@ import java.util.Set;
 import java.util.regex.Pattern;
 
 import static org.junit.jupiter.api.Assertions.*;
-public class PassengerTest {
+class PassengerTest {
 
     private Passenger passenger;
 
@@ -33,5 +34,12 @@ public class PassengerTest {
     @Test
     void testGetCountryCode(){
         assertEquals("ES",passenger.getCountryCode());
+    }
+
+    @Test
+    void testGetFlight(){
+        Flight flight = new Flight("AB123", 77);
+        passenger.setFlight(flight);
+        assertEquals(flight,passenger.getFlight());
     }
 }
