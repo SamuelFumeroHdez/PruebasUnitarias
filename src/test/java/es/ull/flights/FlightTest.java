@@ -35,5 +35,10 @@ class FlightTest {
         assertEquals(1,flight.getNumberOfPassengers());
     }
 
+    @Test
+    public void testAddPassenger(){
+        assertTrue(flight.addPassenger(new Passenger("ABC", "Pedro", "ES")));
+    }
+
 
 }
