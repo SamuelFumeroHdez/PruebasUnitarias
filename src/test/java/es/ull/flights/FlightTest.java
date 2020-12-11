@@ -26,22 +26,22 @@ class FlightTest {
 
 
     @Test
-    public void testGetFlightNumber(){
+    void testGetFlightNumber(){
         assertEquals("AB123",flight.getFlightNumber());
     }
 
     @Test
-    public void testGetNumberOfPassengers(){
+    void testGetNumberOfPassengers(){
         assertEquals(1,flight.getNumberOfPassengers());
     }
 
     @Test
-    public void testAddPassenger(){
+    void testAddPassenger(){
         assertTrue(flight.addPassenger(new Passenger("ABC", "Pedro", "ES")));
     }
 
     @Test
-    public void testRemovePassenger(){
+    void testRemovePassenger(){
         assertTrue(flight.removePassenger(passenger));
     }
 
