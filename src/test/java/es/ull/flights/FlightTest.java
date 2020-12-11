@@ -40,5 +40,10 @@ class FlightTest {
         assertTrue(flight.addPassenger(new Passenger("ABC", "Pedro", "ES")));
     }
 
+    @Test
+    public void testRemovePassenger(){
+        assertTrue(flight.removePassenger(passenger));
+    }
+
 
 }
