@@ -42,4 +42,11 @@ class PassengerTest {
         passenger.setFlight(flight);
         assertEquals(flight,passenger.getFlight());
     }
+
+    @Test
+    void testToString(){
+        String expectedString = "Passenger " + passenger.getName() + " with identifier: " +
+                passenger.getIdentifier() + " from " + passenger.getCountryCode();
+        assertEquals(expectedString,passenger.toString());
+    }
 }
