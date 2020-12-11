@@ -29,4 +29,9 @@ public class PassengerTest {
     void testGetName(){
         assertEquals("Samuel", passenger.getName());
     }
+
+    @Test
+    void testGetCountryCode(){
+        assertEquals("ES",passenger.getCountryCode());
+    }
 }
