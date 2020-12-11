@@ -24,4 +24,9 @@ public class PassengerTest {
     void testGetIdentifier(){
         assertEquals("ABC",passenger.getIdentifier());
     }
+
+    @Test
+    void testGetName(){
+        assertEquals("Samuel", passenger.getName());
+    }
 }
