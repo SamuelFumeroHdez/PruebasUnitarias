@@ -49,4 +49,9 @@ class PassengerTest {
                 passenger.getIdentifier() + " from " + passenger.getCountryCode();
         assertEquals(expectedString,passenger.toString());
     }
+
+    @Test
+    void testJoinFlight(){
+        assertDoesNotThrow(RuntimeException.class, passenger.joinFlight(new Flight("AB123",43)));
+    }
 }
