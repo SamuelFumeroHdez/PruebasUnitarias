@@ -28,7 +28,7 @@ class PassengerTest {
 
     @Test
     void testGetName(){
-        assertEquals("Samuel", passenger.getName());
+        assertEquals("Paco", passenger.getName());
     }
 
     @Test
