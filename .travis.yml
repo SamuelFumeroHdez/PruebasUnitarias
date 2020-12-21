@@ -1,0 +1,16 @@
+# Virtual Machine Configuration
+os: linux
+dist: xenial
+
+# Project JDK
+language: java
+jdk:
+  - openjdk11
+
+addons:
+  sonarcloud:
+    organization: "SamuelFumeroHdez"
+
+script:
+  # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
+  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
