@@ -4,6 +4,7 @@ dist: xenial
 
 # Project JDK
 language: java
+install: true
 jdk:
   - openjdk11
 
