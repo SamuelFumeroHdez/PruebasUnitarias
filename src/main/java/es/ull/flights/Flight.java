@@ -29,13 +29,33 @@ import es.ull.passengers.Passenger;
 
 public class Flight {
 
+    /**
+     * @brief atributo que indica el número de vuelo
+     */
     private String flightNumber;
+    /**
+     * @brief atributo que indica el numero de asientos
+     */
     private int seats;
+    /**
+     * @brief atributo que contiene el conjunto de pasajeros del vuelo
+     */
     private Set<Passenger> passengers = new HashSet<>();
-
+    /**
+     * @brief atributo que contiene la expresion regular para el numero de vuelo
+     */
     private static String flightNumberRegex = "^[A-Z]{2}\\d{3,4}$";
+    /**
+     * Atributo que contiene el patrón del numero de vuelo
+     */
     private static Pattern pattern = Pattern.compile(flightNumberRegex);
 
+    /**
+     *
+     * @param flightNumber
+     * @param seats
+     * @brief constructor de la clase Flight
+     */
     public Flight(String flightNumber, int seats) {
         Matcher matcher = pattern.matcher(flightNumber);
         if (!matcher.matches()) {
@@ -45,14 +65,30 @@ public class Flight {
         this.seats = seats;
     }
 
+    /**
+     *
+     * @return flightNumber
+     * @brief get de numero de vuelo
+     */
     public String getFlightNumber() {
         return flightNumber;
     }
 
+    /**
+     *
+     * @return passengers.size()
+     * @brief get del numero de pasajeros que hay en un vuelo
+     */
     public int getNumberOfPassengers() {
         return passengers.size();
     }
 
+    /**
+     *
+     * @param passenger
+     * @return
+     * @brief método para añadir un pasajero al vuelo
+     */
     public boolean addPassenger(Passenger passenger) {
         if (getNumberOfPassengers() >= seats) {
             throw new RuntimeException("Not enough seats for flight " + getFlightNumber());
@@ -61,6 +97,12 @@ public class Flight {
         return passengers.add(passenger);
     }
 
+    /**
+     *
+     * @param passenger
+     * @return
+     * @brief método para eliminar un pasajero del vuelo
+     */
     public boolean removePassenger(Passenger passenger) {
         passenger.setFlight(null);
         return passengers.remove(passenger);
