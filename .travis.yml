@@ -2,6 +2,12 @@
 os: linux
 dist: xenial
 
+sudo: false
+
+branches:
+  only:
+    - master
+
 # Project JDK
 language: java
 install: true
