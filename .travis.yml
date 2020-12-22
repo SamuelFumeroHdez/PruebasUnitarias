@@ -11,8 +11,21 @@ jdk:
 addons:
   sonarcloud:
     organization: "samuelfumerohdez"
+    
+  apt:
+    packages:
+      - doxygen
 
 script:
   # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
   - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
   - mvn test
+  - doxygen Doxyfile
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  local_dir: docs/html
+  github_token: $GH_REPO_TOKEN
+  on:
+    branch: master
