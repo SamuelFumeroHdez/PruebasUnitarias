@@ -1,0 +1,61 @@
+
+8es.ull.passengers.Passenger#toString()Ljava/lang/String;o
+c/home/travis/build/SamuelFumeroHdez/PruebasUnitarias/src/main/java/es/ull/passengers/Passenger.javaŠ Š("1*ß
+1o
+c/home/travis/build/SamuelFumeroHdez/PruebasUnitarias/src/main/java/es/ull/passengers/Passenger.java‹ ‹(ñî
+o
+c/home/travis/build/SamuelFumeroHdez/PruebasUnitarias/src/main/java/es/ull/passengers/Passenger.java‹ ‹('
+%0java.lang.String"7es.ull.passengers.Passenger#getName()Ljava/lang/String;*
+es.ull.passengers.Passenger2	getName()À
+½
+o
+c/home/travis/build/SamuelFumeroHdez/PruebasUnitarias/src/main/java/es/ull/passengers/Passenger.java‹ ‹('
+%1java.lang.String"__concat*
+
+Passenger *
+
+%0java.lang.StringÈ
+Å
+o
+c/home/travis/build/SamuelFumeroHdez/PruebasUnitarias/src/main/java/es/ull/passengers/Passenger.java‹ ‹(>
+%2java.lang.String"__concat*
+
+%1java.lang.String*
+ with identifier: ýú
+o
+c/home/travis/build/SamuelFumeroHdez/PruebasUnitarias/src/main/java/es/ull/passengers/Passenger.java‹A ‹(P
+%3java.lang.String"=es.ull.passengers.Passenger#getIdentifier()Ljava/lang/String;*
+es.ull.passengers.Passenger2getIdentifier()Ê
+Ç
+o
+c/home/travis/build/SamuelFumeroHdez/PruebasUnitarias/src/main/java/es/ull/passengers/Passenger.java‹ ‹(P
+%4java.lang.String"__concat*
+
+%2java.lang.String*
+
+%3java.lang.String¼
+¹
+o
+c/home/travis/build/SamuelFumeroHdez/PruebasUnitarias/src/main/java/es/ull/passengers/Passenger.java‹ ‹([
+%5java.lang.String"__concat*
+
+%4java.lang.String*
+
+ from ÿü
+o
+c/home/travis/build/SamuelFumeroHdez/PruebasUnitarias/src/main/java/es/ull/passengers/Passenger.java‹^ ‹(n
+%6java.lang.String">es.ull.passengers.Passenger#getCountryCode()Ljava/lang/String;*
+es.ull.passengers.Passenger2getCountryCode()Ê
+Ç
+o
+c/home/travis/build/SamuelFumeroHdez/PruebasUnitarias/src/main/java/es/ull/passengers/Passenger.java‹ ‹(n
+%7java.lang.String"__concat*
+
+%5java.lang.String*
+
+%6java.lang.String"‹
+o
+c/home/travis/build/SamuelFumeroHdez/PruebasUnitarias/src/main/java/es/ull/passengers/Passenger.java‹ ‹(o
+
+%7java.lang.StringB
+es.ull.passengers.Passenger

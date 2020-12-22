@@ -1,0 +1,31 @@
+
+Ees.ull.flights.Flight#removePassenger(Les/ull/passengers/Passenger;)Zg
+]/home/travis/build/SamuelFumeroHdez/PruebasUnitarias/src/main/java/es/ull/flights/Flight.javaj j(""1*°
+1g
+]/home/travis/build/SamuelFumeroHdez/PruebasUnitarias/src/main/java/es/ull/flights/Flight.javak k(‘Ž
+g
+]/home/travis/build/SamuelFumeroHdez/PruebasUnitarias/src/main/java/es/ull/flights/Flight.javak k(!
+
+%0void"?es.ull.passengers.Passenger#setFlight(Les/ull/flights/Flight;)V**
+(
+	passengeres.ull.passengers.Passenger*
+""2"setFlight(Les/ull/flights/Flight;)²
+¯
+g
+]/home/travis/build/SamuelFumeroHdez/PruebasUnitarias/src/main/java/es/ull/flights/Flight.javal l(
+%1java.util.Set"__id*)*'
+es.ull.flights.Flight"
+
+passengers…‚
+g
+]/home/travis/build/SamuelFumeroHdez/PruebasUnitarias/src/main/java/es/ull/flights/Flight.javal l(+
+%2boolean")java.util.Set#remove(Ljava/lang/Object;)Z*
+
+%1java.util.Set**
+(
+	passengeres.ull.passengers.Passenger2remove(Ljava/lang/Object;)"q
+g
+]/home/travis/build/SamuelFumeroHdez/PruebasUnitarias/src/main/java/es/ull/flights/Flight.javal l(,
+"":(
+	passengeres.ull.passengers.PassengerB
+es.ull.flights.Flight

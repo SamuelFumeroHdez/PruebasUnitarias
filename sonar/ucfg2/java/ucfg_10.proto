@@ -1,0 +1,21 @@
+
+.es.ull.flights.Flight#getNumberOfPassengers()Ig
+]/home/travis/build/SamuelFumeroHdez/PruebasUnitarias/src/main/java/es/ull/flights/Flight.javaR R($"1*Ä
+1g
+]/home/travis/build/SamuelFumeroHdez/PruebasUnitarias/src/main/java/es/ull/flights/Flight.javaS S(²
+¯
+g
+]/home/travis/build/SamuelFumeroHdez/PruebasUnitarias/src/main/java/es/ull/flights/Flight.javaS S(
+%0java.util.Set"__id*)*'
+es.ull.flights.Flight"
+
+passengers­ª
+g
+]/home/travis/build/SamuelFumeroHdez/PruebasUnitarias/src/main/java/es/ull/flights/Flight.javaS S( 	
+%1int"java.util.Set#size()I*
+
+%0java.util.Set2size()"q
+g
+]/home/travis/build/SamuelFumeroHdez/PruebasUnitarias/src/main/java/es/ull/flights/Flight.javaS S(!
+""B
+es.ull.flights.Flight

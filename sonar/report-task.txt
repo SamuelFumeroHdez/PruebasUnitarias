@@ -1,0 +1,7 @@
+organization=samuelfumerohdez
+projectKey=SamuelFumeroHdez_PruebasUnitarias
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.15878
+dashboardUrl=https://sonarcloud.io/dashboard?id=SamuelFumeroHdez_PruebasUnitarias
+ceTaskId=AXaLPLXohpUaZrsDauoA
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXaLPLXohpUaZrsDauoA
