@@ -2,6 +2,12 @@
 os: linux
 dist: xenial
 
+sudo: false
+
+branches:
+  only:
+    - master
+
 # Project JDK
 language: java
 install: true
@@ -25,7 +31,7 @@ script:
 deploy:
   provider: pages
   skip_cleanup: true
-  local_dir: docs/html
+  local_dir: target
   github_token: $GH_REPO_TOKEN
   on:
     branch: master
