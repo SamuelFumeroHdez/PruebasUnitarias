@@ -38,7 +38,7 @@ class PassengerTest {
 
     @Test
     void testGetFlight(){
-        Flight flight = new Flight("AB124", 77);
+        Flight flight = new Flight("AB123", 77);
         passenger.setFlight(flight);
         assertEquals(flight,passenger.getFlight());
     }
